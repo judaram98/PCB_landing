@@ -1,46 +1,50 @@
 <template>
-  <header class="w-full flex flex-col items-center h-screen">
+  <header class="w-full flex flex-col items-center h-fit relative">
     <!-- ---------------------------- NAVBAR ---------------------------- -->
-    <div class="w-full flex justify-between items-center h-28 px-20">
-      <a href="#" class="h-full flex items-center">
-        <img
-          src="/images/LogoText.svg"
-          alt="Power Circuit Breakers Logo"
-          class="h-4/6"
-        />
-      </a>
-      <div class="flex">
+    <div class="w-full sticky top-0 z-10 flex flex-col items-center">
+      <div class="w-full flex justify-between items-center h-28 px-20 bg-white">
+        <a href="#" class="h-full flex items-center">
+          <img
+            src="/images/LogoText.svg"
+            alt="Power Circuit Breakers Logo"
+            class="h-4/6"
+          />
+        </a>
         <div class="flex">
-          <img src="/images/Phone.svg" alt="Phone icon" class="p-2" />
-          <div>
-            <p class="font-normal text-xl -mb-2">Call us</p>
-            <h1 class="font-bold text-3xl -mb-2">+1 (000) 000 0000</h1>
+          <div class="flex">
+            <img src="/images/Phone.svg" alt="Phone icon" class="p-2" />
+            <div>
+              <p class="font-normal text-xl -mb-2">Call us</p>
+              <h1 class="font-bold text-3xl -mb-2">+1 (000) 000 0000</h1>
+            </div>
           </div>
-        </div>
-        <div class="flex ml-5">
-          <img src="/images/Mail.svg" alt="Mail icon" class="p-2" />
-          <div>
-            <p class="font-normal text-xl -mb-2">Email us</p>
-            <h1 class="font-bold text-3xl -mb-2">correodeprueba@prueba.com</h1>
+          <div class="flex ml-5">
+            <img src="/images/Mail.svg" alt="Mail icon" class="p-2" />
+            <div>
+              <p class="font-normal text-xl -mb-2">Email us</p>
+              <h1 class="font-bold text-3xl -mb-2">
+                correodeprueba@prueba.com
+              </h1>
+            </div>
           </div>
         </div>
       </div>
+
+      <nav class="bg-blackGray w-fit">
+        <div class="flex">
+          <a
+            class="text-white px-20 hover:bg-primary hover:text-black font-bold text-3xl py-1"
+            v-for="({ text, route }, index) in links"
+            :key="index"
+            :href="route"
+            >{{ text }}</a
+          >
+        </div>
+      </nav>
     </div>
 
-    <nav class="bg-blackGray w-fit z-10">
-      <div>
-        <a
-          class="text-white px-20 hover:bg-primary hover:text-black font-bold text-3xl"
-          v-for="({ text, route }, index) in links"
-          :key="index"
-          :href="route"
-          >{{ text }}</a
-        >
-      </div>
-    </nav>
-
     <!-- ---------------------------- HERO ---------------------------- -->
-    <section class="w-full h-4/6 -mt-9">
+    <section class="w-full h-[70vh] border-2 -mt-11">
       <div class="h-full overflow-hidden flex items-center">
         <img src="/images/Hero.jpg" alt="Circuit brakers image" />
       </div>
@@ -170,7 +174,7 @@
       </div>
       <a
         href="#"
-        class="text-2xl rounded-xl py-3 px-10 text-white border-2 border-white h-fit"
+        class="text-2xl rounded-xl hover:border-primary hover:text-primary py-3 px-10 text-white border-2 border-white h-fit"
         >CONTACT US</a
       >
     </section>
