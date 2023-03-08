@@ -53,7 +53,7 @@
       </p>
       <div class="w-full flex">
         <div class="w-3/6 pr-10">
-          <img src="../../public/images/Breakers.png" alt="" />
+          <img src="images/Breakers.png" alt="" />
         </div>
         <div class="w-3/6 pl-10 flex flex-col justify-center">
           <h1 class="text-darkGrayContrast text-4xl">
@@ -83,7 +83,7 @@
           <div class="mt-5 flex justify-end">
             <a
               href="#"
-              class="text-2xl bg-primary rounded-xl py-3 px-10 text-black w-fit"
+              class="text-2xl bg-primary hover:bg-primaryContrast rounded-xl py-3 px-10 text-black w-fit"
               >CONTACT US</a
             >
           </div>
@@ -106,7 +106,7 @@
           <div class="mt-5 flex justify-end">
             <a
               href="#"
-              class="text-2xl bg-primary rounded-xl py-3 px-10 text-black w-fit"
+              class="text-2xl bg-primary hover:bg-primaryContrast rounded-xl py-3 px-10 text-black w-fit"
               >CATALOG</a
             >
           </div>
@@ -124,24 +124,40 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero
         ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies eu.
       </p>
-      <div class="w-full flex mt-14">
+      <div class="w-full flex">
         <div class="w-1/4 p-10 flex justify-center items-center">
-          <img src="images/SquareD.png" alt="" class="" />
+          <img
+            src="images/SquareD.png"
+            alt="Square D Logo"
+            class="hover:scale-105 duration-300"
+          />
         </div>
         <div class="w-1/4 p-10 flex justify-center items-center">
-          <img src="images/Eaton.png" alt="" />
+          <img
+            src="images/Eaton.png"
+            alt="Eaton Logo"
+            class="hover:scale-105 duration-300"
+          />
         </div>
         <div class="w-1/4 p-10 flex justify-center items-center">
-          <img src="images/Siemens.png" alt="" />
+          <img
+            src="images/Siemens.png"
+            alt="Siemens Logo"
+            class="hover:scale-105 duration-300"
+          />
         </div>
         <div class="w-1/4 p-10 flex justify-center items-center">
-          <img src="images/GeneralE.png" alt="" />
+          <img
+            src="images/GeneralE.png"
+            alt="General Electrics Logo"
+            class="hover:scale-105 duration-300"
+          />
         </div>
       </div>
     </section>
 
-    <!-- ---------------------------- FOOTER ---------------------------- -->
-    <section class="w-full flex bg-blackGray items-center">
+    <!-- ---------------------------- SECTION ---------------------------- -->
+    <section class="w-full flex bg-blackGray items-center mt-24">
       <img src="images/YellowImage.png" alt="" class="w-1/6" />
       <div class="w-4/6 pl-10">
         <h1 class="text-5xl text-white">LOREM IPSUM</h1>
