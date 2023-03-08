@@ -40,9 +40,11 @@
     </nav>
 
     <!-- ---------------------------- HERO ---------------------------- -->
-    <!-- <section class="w-full -mt-9 h-screen flex items-center border-2">
-      <img src="/images/Hero.jpg" alt="Circuit brakers image" />
-    </section> -->
+    <section class="w-full h-4/6 -mt-9">
+      <div class="h-full overflow-hidden flex items-center">
+        <img src="/images/Hero.jpg" alt="Circuit brakers image" />
+      </div>
+    </section>
 
     <!-- ---------------------------- WE BUY & WE SELL ---------------------------- -->
     <section class="w-full px-20 mt-24">
@@ -176,7 +178,7 @@
     <!-- ---------------------------- ABOUT US ---------------------------- -->
     <section class="w-full px-20 mt-24">
       <h1 class="text-5xl text-center">ABOUT US</h1>
-      <p class="text-3xl text-center text-darkGrayContrast px-40">
+      <p class="text-3xl text-center text-darkGrayContrast px-40 mt-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero
         ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies eu.
         Pellentesque sit amet sodales risus. Donec massa ligula, tincidunt eu
