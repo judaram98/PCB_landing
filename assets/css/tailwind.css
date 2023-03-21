@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .border-around {
+    -webkit-text-stroke: 3px #000;
+  }
+  .border-around-sm {
+    -webkit-text-stroke: 2px #000;
+  }
+  .border-around-gray {
+    -webkit-text-stroke: 3px #667276;
+  }
+  .border-around-white {
+    -webkit-text-stroke: 3px #fff;
+  }
+  .border-around-white-sm {
+    -webkit-text-stroke: 2px #fff;
+  }
+}
