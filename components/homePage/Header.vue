@@ -60,24 +60,32 @@
     <section
       class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
     >
-      <h1 class="text-center text-5xl tracking-wide border-around">
+      <h1
+        class="text-center lg:text-5xl md:text-4xl text-3xl tracking-wide border-around"
+      >
         WHAT WE DO
       </h1>
-      <p class="text-center text-3xl mt-5 text-darkGrayContrast px-48">
+      <p
+        class="text-center lg:text-3xl md:text-2xl text-xl lg:mt-5 mt-3 text-darkGrayContrast lg:px-48 md:px-32 sm:px-20 px-12"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero
         ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies eu.
       </p>
-      <div class="w-full flex mt-10">
-        <div class="w-3/6 pr-10 flex items-center">
-          <img src="images/Breakers.png" alt="" />
+      <div class="w-full md:flex lg:mt-10 mt-5">
+        <div
+          class="md:w-3/6 w-full lg:pr-10 md:pr-7 flex items-center justify-center"
+        >
+          <img src="images/Breakers.png" alt="" class="md:w-full w-4/6" />
         </div>
-        <div class="w-3/6 pl-10 flex flex-col justify-center">
+        <div class="md:w-3/6 lg:pl-10 md:pl-7 flex flex-col justify-center">
           <h1
-            class="text-darkGrayContrast text-4xl tracking-wide border-around-gray"
+            class="text-darkGrayContrast md:text-left text-center lg:text-4xl md:text-3xl text-2xl tracking-wide border-around-gray"
           >
             WE BUY ALL TYPES OF BRANDS OF ELECTRICAL EQUIPMENT
           </h1>
-          <p class="text-darkGrayContrast text-3xl">
+          <p
+            class="text-darkGrayContrast md:text-left text-center lg:text-3xl md:text-2xl text-xl"
+          >
             New, used or overstock inventory instead of letting it collect dust
             or take up space contact our buyers department
             <span class="text-primary">for a free quote</span>. We buy
@@ -85,40 +93,86 @@
           </p>
           <div class="flex mt-5">
             <ul class="w-3/6">
-              <li class="text-3xl text-darkGrayContrast">Circuit Breakers</li>
-              <li class="text-3xl text-darkGrayContrast">Arc Faults</li>
-              <li class="text-3xl text-darkGrayContrast">Switch Gears</li>
-              <li class="text-3xl text-darkGrayContrast">Bus Plugs</li>
-              <li class="text-3xl text-darkGrayContrast">Motor Controls</li>
+              <li
+                class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+              >
+                Circuit Breakers
+              </li>
+              <li
+                class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+              >
+                Arc Faults
+              </li>
+              <li
+                class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+              >
+                Switch Gears
+              </li>
+              <li
+                class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+              >
+                Bus Plugs
+              </li>
+              <li
+                class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+              >
+                Motor Controls
+              </li>
             </ul>
             <ul class="w-3/6">
-              <li class="text-3xl text-darkGrayContrast">Data Centers</li>
-              <li class="text-3xl text-darkGrayContrast">Trip Units</li>
-              <li class="text-3xl text-darkGrayContrast">Shunt Trips</li>
-              <li class="text-3xl text-darkGrayContrast">Busway Switches</li>
-              <li class="text-3xl text-darkGrayContrast">Transformers</li>
+              <li
+                class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+              >
+                Data Centers
+              </li>
+              <li
+                class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+              >
+                Trip Units
+              </li>
+              <li
+                class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+              >
+                Shunt Trips
+              </li>
+              <li
+                class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+              >
+                Busway Switches
+              </li>
+              <li
+                class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+              >
+                Transformers
+              </li>
             </ul>
           </div>
-          <p class="text-3xl text-darkGrayContrast mt-5">
+          <p
+            class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast mt-5"
+          >
             We do not buy electrical parts, tools or fittings
           </p>
-          <div class="mt-5 flex justify-end">
+          <div class="mt-5 flex md:justify-end justify-center">
             <a
               href="#"
-              class="text-2xl bg-primary hover:bg-primaryContrast rounded-xl py-3 px-10 text-black w-fit"
+              class="lg:text-2xl md:text-xl text-lg bg-primary hover:bg-primaryContrast rounded-xl py-3 px-10 text-black w-fit"
               >CONTACT US</a
             >
           </div>
         </div>
       </div>
-      <div class="w-full flex mt-10">
-        <div class="w-3/6 pr-10 flex flex-col justify-center">
+      <div
+        class="w-full flex md:flex-row flex-col flex-col-reverse lg:mt-10 mt-5"
+      >
+        <div class="md:w-3/6 lg:pr-10 md:pr-7 flex flex-col justify-center">
           <h1
-            class="text-darkGrayContrast text-4xl tracking-wide border-around-gray"
+            class="text-darkGrayContrast md:text-left text-center lg:text-4xl md:text-3xl text-2xl tracking-wide border-around-gray"
           >
             WE SELL ALL TYPES OF ELECTRICAL EQUIPMENT
           </h1>
-          <p class="text-3xl text-darkGrayContrast mt-5">
+          <p
+            class="text-darkGrayContrast md:text-left text-center lg:text-3xl md:text-2xl text-xl"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
             libero ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies
             eu. Pellentesque sit amet sodales risus. Donec massa ligula,
@@ -127,50 +181,68 @@
             facilisis, est eget tempus bibendum, mi mi cursus felis, id
             fermentum sapien ipsum a justo.
           </p>
-          <div class="mt-5 flex justify-end">
+          <div class="mt-5 flex md:justify-end justify-center">
             <a
               href="#"
-              class="text-2xl bg-primary hover:bg-primaryContrast rounded-xl py-3 px-10 text-black w-fit"
+              class="lg:text-2xl md:text-xl text-lg bg-primary hover:bg-primaryContrast rounded-xl py-3 px-10 text-black w-fit"
               >CATALOG</a
             >
           </div>
         </div>
-        <div class="w-3/6 pl-10">
-          <img src="../../images/Breakers.png" alt="" />
+        <div
+          class="md:w-3/6 w-full lg:pl-10 md:pl-7 flex items-center justify-center"
+        >
+          <img src="../../images/Breakers.png" alt="" class="md:w-full w-4/6" />
         </div>
       </div>
     </section>
 
     <!-- ---------------------------- BRANDS ---------------------------- -->
-    <!-- <section class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8">
-      <h1 class="text-center text-5xl tracking-wide border-around">BRANDS</h1>
-      <p class="text-center text-3xl mt-5 text-darkGrayContrast px-48">
+    <section
+      class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
+    >
+      <h1
+        class="text-center lg:text-5xl md:text-4xl text-3xl tracking-wide border-around"
+      >
+        BRANDS
+      </h1>
+      <p
+        class="text-center lg:text-3xl md:text-2xl text-xl lg:mt-5 mt-3 text-darkGrayContrast lg:px-48 md:px-32 sm:px-20 px-12"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero
         ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies eu.
       </p>
-      <div class="w-full flex mt-5">
-        <div class="w-1/4 px-10 flex justify-center items-center">
+      <div class="w-full flex lg:mt-5 mt-3">
+        <div
+          class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center"
+        >
           <img
             src="images/SquareD.png"
             alt="Square D Logo"
             class="hover:scale-105 duration-300"
           />
         </div>
-        <div class="w-1/4 px-10 flex justify-center items-center">
+        <div
+          class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center"
+        >
           <img
             src="images/Abb.png"
             alt="Abb Logo"
             class="hover:scale-105 duration-300"
           />
         </div>
-        <div class="w-1/4 px-10 flex justify-center items-center">
+        <div
+          class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center"
+        >
           <img
             src="images/Siemens.png"
             alt="Siemens Logo"
             class="hover:scale-105 duration-300"
           />
         </div>
-        <div class="w-1/4 px-10 flex justify-center items-center">
+        <div
+          class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center"
+        >
           <img
             src="images/GeneralE.png"
             alt="General Electrics Logo"
@@ -178,29 +250,37 @@
           />
         </div>
       </div>
-      <div class="w-full flex mt-5">
-        <div class="w-1/4 px-10 flex justify-center items-center">
+      <div class="w-full flex lg:mt-5 mt-3">
+        <div
+          class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center"
+        >
           <img
             src="images/FederalPacific.png"
             alt="Federal Pacific Logo"
             class="hover:scale-105 duration-300"
           />
         </div>
-        <div class="w-1/4 px-10 flex justify-center items-center">
+        <div
+          class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center"
+        >
           <img
             src="images/WestingHouse.png"
             alt="Westing House Logo"
             class="hover:scale-105 duration-300"
           />
         </div>
-        <div class="w-1/4 px-10 flex justify-center items-center">
+        <div
+          class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center"
+        >
           <img
             src="images/Eaton.png"
             alt="Eaton Logo"
             class="hover:scale-105 duration-300"
           />
         </div>
-        <div class="w-1/4 px-10 flex justify-center items-center">
+        <div
+          class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center"
+        >
           <img
             src="images/Zinsco.png"
             alt="Zinsco Logo"
@@ -208,38 +288,50 @@
           />
         </div>
       </div>
-      <div class="w-full flex justify-center mt-5">
+      <div class="w-full flex justify-center lg:mt-5 mt-3">
         <img
           src="images/AllenBradley.png"
           alt="Allen Bradley Logo"
-          class="hover:scale-105 duration-300 h-20"
+          class="hover:scale-105 duration-300 lg:h-20 sm:h-14 h-10"
         />
       </div>
-    </section> -->
+    </section>
 
     <!-- ---------------------------- SECTION ---------------------------- -->
-    <!-- <section class="w-full flex bg-blackGray items-center 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8">
-      <img src="images/YellowImage.png" alt="" class="w-1/6" />
+    <section
+      class="w-full flex bg-blackGray items-center 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
+    >
+      <img src="images/YellowImage.png" alt="" class="w-1/6 md:block hidden" />
       <div class="w-4/6 pl-10">
-        <h1 class="text-4xl text-white tracking-wide border-around-white">
+        <h1
+          class="lg:text-4xl md:text-3xl text-2xl text-white tracking-wide border-around-white"
+        >
           LOREM IPSUM
         </h1>
-        <p class="text-2xl text-white">
+        <p class="lg:text-2xl md:text-xl text-lg text-white">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero
           ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies eu.
         </p>
       </div>
       <a
         href="#"
-        class="text-2xl rounded-xl hover:border-primary hover:text-primary py-3 px-10 text-white border-2 border-white h-fit"
+        class="lg:text-2xl md:text-xl text-lg rounded-xl hover:border-primary hover:text-primary py-3 px-10 text-white border-2 border-white h-fit"
         >CONTACT US</a
       >
-    </section> -->
+    </section>
 
     <!-- ---------------------------- ABOUT US ---------------------------- -->
-    <!-- <section class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8">
-      <h1 class="text-5xl text-center tracking-wide border-around">ABOUT US</h1>
-      <p class="text-3xl text-center text-darkGrayContrast px-48 mt-5">
+    <section
+      class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
+    >
+      <h1
+        class="lg:text-5xl md:text-4xl text-3xl text-center tracking-wide border-around"
+      >
+        ABOUT US
+      </h1>
+      <p
+        class="tlg:text-3xl md:text-2xl text-xl text-center text-darkGrayContrast lg:px-48 md:px-32 sm:px-20 px-12 lg:mt-5 mt-3"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero
         ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies eu.
         Pellentesque sit amet sodales risus. Donec massa ligula, tincidunt eu
@@ -251,11 +343,11 @@
         sodales turpis ultricies. Duis varius viverra posuere. In vel felis nec
         mi pulvinar egestas at vel risus.
       </p>
-    </section> -->
+    </section>
 
     <!-- ---------------------------- CONTACT US ---------------------------- -->
     <!-- <section class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 mt-10">
-      <h1 class="text-center text-5xl tracking-wide border-around">
+      <h1 class="text-center lg:text-5xl md:text-4xl text-3xl tracking-wide border-around">
         CONTACT US
       </h1>
       <div class="flex justify-center mt-5">
@@ -334,7 +426,7 @@
 
     <!-- ---------------------------- CATALOG ---------------------------- -->
     <!-- <section class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 mt-10">
-      <h1 class="text-center text-5xl stroke-black tracking-wide border-around">
+      <h1 class="text-center lg:text-5xl md:text-4xl text-3xl stroke-black tracking-wide border-around">
         CATALOG
       </h1>
       <p class="text-center text-3xl mt-5 text-darkGrayContrast px-48">
@@ -366,14 +458,16 @@
     </section> -->
 
     <!-- ---------------------------- FOOTER ---------------------------- -->
-    <!-- <footer class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 py-8 bg-blackGray flex 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8">
+    <footer
+      class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 py-8 bg-blackGray flex 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
+    >
       <div class="w-2/6">
         <img
           src="/images/LogoWhiteText.svg"
           alt="Power Circuit Breakers Logo"
           class="h-10"
         />
-        <p class="text-white text-2xl mt-5">
+        <p class="text-white lg:text-2xl md:text-xl text-lg mt-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero
           ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies eu.
           Pellentesque sit amet sodales risus.
@@ -381,37 +475,49 @@
       </div>
       <div class="w-2/6">
         <h1
-          class="text-white text-3xl text-center h-10 tracking-wide border-around-white-sm"
+          class="text-white lg:text-3xl md:text-2xl text-xl text-center h-10 tracking-wide border-around-white-sm"
         >
           IMPORTANT LINKS
         </h1>
-        <div class="flex flex-col px-20 mt-5">
-          <a href="#" class="text-2xl text-darkGray">Circuit Breakers</a>
-          <a href="#" class="text-2xl text-darkGray">Motor Control</a>
-          <a href="#" class="text-2xl text-darkGray">Panels</a>
-          <a href="#" class="text-2xl text-darkGray">Transformers</a>
+        <div class="flex flex-col lg:px-20 md:px-10 px-3 mt-5">
+          <a href="#" class="lg:text-2xl md:text-xl text-lg text-darkGray"
+            >Circuit Breakers</a
+          >
+          <a href="#" class="lg:text-2xl md:text-xl text-lg text-darkGray"
+            >Motor Control</a
+          >
+          <a href="#" class="lg:text-2xl md:text-xl text-lg text-darkGray"
+            >Panels</a
+          >
+          <a href="#" class="lg:text-2xl md:text-xl text-lg text-darkGray"
+            >Transformers</a
+          >
         </div>
       </div>
       <div class="w-2/6">
         <h1
-          class="text-white text-3xl text-center h-10 tracking-wide border-around-white-sm"
+          class="text-white lg:text-3xl md:text-2xl text-xl text-center h-10 tracking-wide border-around-white-sm"
         >
           ADDRESS
         </h1>
         <div class="mt-5 flex">
-          <p class="text-2xl text-darkGray w-1/3">Office:</p>
-          <p class="text-2xl text-darkGray w-2/3">
+          <p class="lg:text-2xl md:text-xl text-lg text-darkGray w-1/3">
+            Office:
+          </p>
+          <p class="lg:text-2xl md:text-xl text-lg text-darkGray w-2/3">
             1419 NW 65 AVE PLANTATION FLORIDA 33313
           </p>
         </div>
         <div class="flex">
-          <p class="text-2xl text-darkGray w-1/3">Phone:</p>
-          <p class="text-2xl text-darkGray w-2/3">
+          <p class="lg:text-2xl md:text-xl text-lg text-darkGray w-1/3">
+            Phone:
+          </p>
+          <p class="lg:text-2xl md:text-xl text-lg text-darkGray w-2/3">
             +1 (305) 900 7100 - +1 (000) 000 0000
           </p>
         </div>
       </div>
-    </footer> -->
+    </footer>
   </header>
 </template>
 
