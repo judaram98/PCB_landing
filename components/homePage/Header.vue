@@ -48,16 +48,16 @@
     </div>
 
     <!-- ---------------------------- HERO ---------------------------- -->
-    <section
+    <!-- <section
       class="w-full -mt-11 2xl:h-[70vh] xl:h-[60vh] lg:h-[50vh] md:h-[40vh] h-[30vh]"
     >
       <div class="h-full overflow-hidden flex items-center">
         <img src="/images/Hero.jpg" alt="Circuit brakers image" />
       </div>
-    </section>
+    </section> -->
 
     <!-- ---------------------------- WE BUY & WE SELL ---------------------------- -->
-    <section
+    <!-- <section
       class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
     >
       <h1
@@ -195,10 +195,10 @@
           <img src="../../images/Breakers.png" alt="" class="md:w-full w-4/6" />
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ---------------------------- BRANDS ---------------------------- -->
-    <section
+    <!-- <section
       class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
     >
       <h1
@@ -295,10 +295,10 @@
           class="hover:scale-105 duration-300 lg:h-20 sm:h-14 h-10"
         />
       </div>
-    </section>
+    </section> -->
 
     <!-- ---------------------------- SECTION ---------------------------- -->
-    <section
+    <!-- <section
       class="w-full flex bg-blackGray items-center 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
     >
       <img src="images/YellowImage.png" alt="" class="w-1/6 md:block hidden" />
@@ -318,10 +318,10 @@
         class="lg:text-2xl md:text-xl text-lg rounded-xl hover:border-primary hover:text-primary py-3 px-10 text-white border-2 border-white h-fit"
         >CONTACT US</a
       >
-    </section>
+    </section> -->
 
     <!-- ---------------------------- ABOUT US ---------------------------- -->
-    <section
+    <!-- <section
       class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
     >
       <h1
@@ -330,7 +330,7 @@
         ABOUT US
       </h1>
       <p
-        class="tlg:text-3xl md:text-2xl text-xl text-center text-darkGrayContrast lg:px-48 md:px-32 sm:px-20 px-12 lg:mt-5 mt-3"
+        class="lg:text-3xl md:text-2xl text-xl text-center text-darkGrayContrast lg:px-48 md:px-32 sm:px-20 px-12 lg:mt-5 mt-3"
       >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero
         ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies eu.
@@ -343,69 +343,77 @@
         sodales turpis ultricies. Duis varius viverra posuere. In vel felis nec
         mi pulvinar egestas at vel risus.
       </p>
-    </section>
+    </section> -->
 
     <!-- ---------------------------- CONTACT US ---------------------------- -->
-    <!-- <section class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 mt-10">
-      <h1 class="text-center lg:text-5xl md:text-4xl text-3xl tracking-wide border-around">
+    <!-- <section
+      class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 mt-10"
+    >
+      <h1
+        class="text-center lg:text-5xl md:text-4xl text-3xl tracking-wide border-around"
+      >
         CONTACT US
       </h1>
-      <div class="flex justify-center mt-5">
-        <div class="flex">
+      <div class="md:flex justify-center mt-5">
+        <div class="flex md:justify-start justify-center">
           <img src="/images/Phone.svg" alt="" class="mr-3" />
           <div>
             <p class="text-xl">Phone Number</p>
-            <h3 class="text-3xl -mt-2 tracking-wide border-around-sm">
+            <h3
+              class="lg:text-3xl md:text-2xl text-xl -mt-2 tracking-wide border-around-sm"
+            >
               +1 (305) 900 7100
             </h3>
           </div>
         </div>
-        <div class="flex ml-10">
+        <div class="flex md:justify-start justify-center md:ml-10">
           <img src="/images/Address.svg" alt="" class="mr-3" />
           <div>
             <p class="text-xl">Mailing Address</p>
-            <h3 class="text-3xl -mt-2 tracking-wide border-around-sm">
+            <h3
+              class="lg:text-3xl md:text-2xl text-xl -mt-2 tracking-wide border-around-sm"
+            >
               1419 NW 65 AVE PLANTATION FLORIDA 33313
             </h3>
           </div>
         </div>
       </div>
       <form class="flex flex-col items-center mt-10">
-        <div class="flex flex-col w-3/6">
-          <label class="text-2xl text-darkGrayContrast"
+        <div class="flex flex-col md:w-3/6 sm:w-4/6 w-5/6">
+          <label class="lg:text-2xl md:text-xl text-lg text-darkGrayContrast"
             >Name: <span aria-label="required">*</span></label
           >
           <input
             type="text"
             name="Name"
             placeholder="Enter your name"
-            class="outline outline-gray rounded-md p-2 text-2xl placeholder:text-gray"
+            class="outline outline-gray rounded-md p-2 lg:text-2xl md:text-xl text-lg placeholder:text-gray"
           />
         </div>
-        <div class="flex flex-col w-3/6 mt-5">
-          <label class="text-2xl text-darkGrayContrast"
+        <div class="flex flex-col md:w-3/6 sm:w-4/6 w-5/6 md:mt-5 sm:mt-4 mt-2">
+          <label class="lg:text-2xl md:text-xl text-lg text-darkGrayContrast"
             >Email: <span aria-label="required">*</span></label
           >
           <input
             type="mail"
             name="Email"
             placeholder="Enter your email"
-            class="outline outline-gray rounded-md p-2 text-2xl placeholder:text-gray"
+            class="outline outline-gray rounded-md p-2 lg:text-2xl md:text-xl text-lg placeholder:text-gray"
           />
         </div>
-        <div class="flex flex-col w-3/6 mt-5">
-          <label class="text-2xl text-darkGrayContrast"
+        <div class="flex flex-col md:w-3/6 sm:w-4/6 w-5/6 md:mt-5 sm:mt-4 mt-2">
+          <label class="lg:text-2xl md:text-xl text-lg text-darkGrayContrast"
             >Phone: <span aria-label="required">*</span></label
           >
           <input
             type="number"
             name="Phone"
             placeholder="Enter your phone"
-            class="outline outline-gray rounded-md p-2 text-2xl placeholder:text-gray"
+            class="outline outline-gray rounded-md p-2 lg:text-2xl md:text-xl text-lg placeholder:text-gray"
           />
         </div>
-        <div class="flex flex-col w-3/6 mt-5">
-          <label class="text-2xl text-darkGrayContrast"
+        <div class="flex flex-col md:w-3/6 sm:w-4/6 w-5/6 md:mt-5 sm:mt-4 mt-2">
+          <label class="lg:text-2xl md:text-xl text-lg text-darkGrayContrast"
             >Comment: <span aria-label="required">*</span></label
           >
           <textarea
@@ -413,52 +421,58 @@
             cols="30"
             rows="5"
             placeholder="Enter your comments here"
-            class="outline outline-gray rounded-md p-2 text-2xl placeholder:text-gray"
+            class="outline outline-gray rounded-md p-2 lg:text-2xl md:text-xl text-lg placeholder:text-gray"
           ></textarea>
         </div>
         <a
           href="#"
-          class="text-2xl rounded-xl py-3 px-10 bg-primary mt-10 hover:bg-primaryContrast"
+          class="lg:text-2xl md:text-xl text-lg rounded-xl py-3 px-10 bg-primary 2xl:mt-10 xl:mt-8 lg:mt-6 md:mt-4 mt-2 hover:bg-primaryContrast"
           >SEND</a
         >
       </form>
     </section> -->
 
     <!-- ---------------------------- CATALOG ---------------------------- -->
-    <!-- <section class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 mt-10">
-      <h1 class="text-center lg:text-5xl md:text-4xl text-3xl stroke-black tracking-wide border-around">
+    <!-- <section
+      class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 mt-10 h-[72vh]"
+    >
+      <h1
+        class="text-center lg:text-5xl md:text-4xl text-3xl stroke-black tracking-wide border-around"
+      >
         CATALOG
       </h1>
-      <p class="text-center text-3xl mt-5 text-darkGrayContrast px-48">
+      <p
+        class="text-center lg:text-3xl md:text-2xl text-xl mt-5 text-darkGrayContrast lg:px-48 md:px-32 sm:px-20 px-12"
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero
         ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies eu.
       </p>
-      <div class="w-full flex justify-center">
+      <div class="w-full sm:flex grid grid-cols-2 justify-center">
         <a
           href="#"
-          class="text-2xl rounded-xl py-3 w-1/6 text-center mx-2 mt-10 hover:bg-primary outline outline-gray text-gray hover:text-black hover:outline-primary"
+          class="lg:text-2xl md:text-xl text-lg rounded-xl py-3 sm:w-1/6 text-center mx-2 sm:mt-10 mt-5 hover:bg-primary outline outline-gray text-gray hover:text-black hover:outline-primary"
           >Circuit Breakers</a
         >
         <a
           href="#"
-          class="text-2xl rounded-xl py-3 w-1/6 text-center mx-2 mt-10 hover:bg-primary outline outline-gray text-gray hover:text-black hover:outline-primary"
+          class="lg:text-2xl md:text-xl text-lg rounded-xl py-3 sm:w-1/6 text-center mx-2 sm:mt-10 mt-5 hover:bg-primary outline outline-gray text-gray hover:text-black hover:outline-primary"
           >Motor Control</a
         >
         <a
           href="#"
-          class="text-2xl rounded-xl py-3 w-1/6 text-center mx-2 mt-10 hover:bg-primary outline outline-gray text-gray hover:text-black hover:outline-primary"
+          class="lg:text-2xl md:text-xl text-lg rounded-xl py-3 sm:w-1/6 text-center mx-2 sm:mt-10 mt-5 hover:bg-primary outline outline-gray text-gray hover:text-black hover:outline-primary"
           >Panels</a
         >
         <a
           href="#"
-          class="text-2xl rounded-xl py-3 w-1/6 text-center mx-2 mt-10 hover:bg-primary outline outline-gray text-gray hover:text-black hover:outline-primary"
+          class="lg:text-2xl md:text-xl text-lg rounded-xl py-3 sm:w-1/6 text-center mx-2 sm:mt-10 mt-5 hover:bg-primary outline outline-gray text-gray hover:text-black hover:outline-primary"
           >Transformers</a
         >
       </div>
     </section> -->
 
     <!-- ---------------------------- FOOTER ---------------------------- -->
-    <footer
+    <!-- <footer
       class="w-full 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 py-8 bg-blackGray flex 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
     >
       <div class="w-2/6">
@@ -517,7 +531,7 @@
           </p>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </header>
 </template>
 
