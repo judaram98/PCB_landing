@@ -17,6 +17,19 @@ export default {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      dropShadow: {
+        "4xl": ["0 0 40px #00000", "0 0 40px #00000"],
+        yellow: [
+          "0 0 40px #FFCB2A",
+          "0 0 40px #FFCB2A",
+          "0 0 40px #FFCB2A",
+          "0 0 40px #FFCB2A",
+        ],
+      },
+      backgroundImage: {
+        "popup-left": "url('/images/LeftPop.png')",
+        "popup-right": "url('/images/RightPop.png')",
+      },
       colors: {
         primary: "#FFCB2A",
         primaryContrast: "#F9BC02",

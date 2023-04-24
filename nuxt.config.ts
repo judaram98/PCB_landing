@@ -1,5 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
-  css: ["/layouts/global.css"],
+  css: ["/assets/css/global.css"],
 });
