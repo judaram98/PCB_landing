@@ -18,7 +18,7 @@
             class="absolute text-center w-full bg-gradient-to-b from-black rounded-t-xl"
           >
             <p class="mt-5 text-white lg:text-5xl md:text-4xl text-3xl">
-              What do you want to do?
+              Welcome, <br />What do you want to do?
             </p>
           </div>
           <div
