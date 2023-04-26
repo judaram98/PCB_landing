@@ -19,52 +19,50 @@
         </div>
       </div>
     </div>
-    <div v-if="categoria != ''">
-      <h1
-        class="text-darkGrayContrast text-center lg:text-4xl md:text-3xl text-2xl tracking-wide border-around-gray mt-10"
-      >
-        POPULAR MANUFACTURERS
-      </h1>
+
+    <h1
+      class="text-darkGrayContrast text-center lg:text-4xl md:text-3xl text-2xl tracking-wide border-around-gray mt-10"
+    >
+      POPULAR MANUFACTURERS
+    </h1>
+    <div
+      class="w-full grid md:grid-cols-4 grid-cols-2 lg:mt-10 mt-7 lg:gap-5 md:gap-3 gap-2"
+    >
       <div
-        class="w-full grid md:grid-cols-4 grid-cols-2 lg:mt-10 mt-7 lg:gap-5 md:gap-3 gap-2"
+        v-for="item in marcas"
+        v-bind:key="item.id"
+        class="flex justify-center items-center"
       >
         <div
-          v-for="item in marcas"
-          v-bind:key="item.id"
-          class="flex justify-center items-center"
+          v-if="item.idCategoria == idCategoria"
+          class="lg:px-10 md:px-6 px-2"
+          @click="idMarca = item.id"
         >
-          <div
-            v-if="item.idCategoria == idCategoria"
-            class="lg:px-10 md:px-6 px-2"
-            @click="idMarca = item.id"
-          >
-            <img
-              :src="item.ruta"
-              alt="Square D Logo"
-              :class="item.id == idMarca ? 'grayscale-0' : ''"
-              class="hover:scale-105 duration-300 grayscale hover:grayscale-0"
-            />
-          </div>
+          <img
+            :src="item.ruta"
+            alt="Square D Logo"
+            :class="item.id == idMarca ? 'grayscale-0' : ''"
+            class="hover:scale-105 duration-300 grayscale hover:grayscale-0"
+          />
         </div>
       </div>
-      <div v-if="idMarca != null">
-        <div
-          class="w-full grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:mt-10 mt-7 lg:gap-5 md:gap-4 gap-3"
+    </div>
+
+    <div
+      class="w-full grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:mt-14 mt-10 lg:gap-5 md:gap-4 gap-3"
+    >
+      <div v-for="item in productos" v-bind:key="item.id">
+        <a
+          v-if="idMarca == item.idMarca && idCategoria == item.idCategoria"
+          target="_blank"
+          :href="item.pdf"
+          class="hover:scale-105 duration-300 border-2 border-gray rounded-lg flex flex-col justify-center items-center cursor-pointer"
         >
-          <div v-for="item in productos" v-bind:key="item.id">
-            <a
-              v-if="idMarca == item.idMarca && idCategoria == item.idCategoria"
-              target="_blank"
-              :href="item.pdf"
-              class="hover:scale-105 duration-300 border-2 border-gray rounded-lg flex flex-col justify-center items-center cursor-pointer"
-            >
-              <img :src="item.img" alt="" />
-              <p class="lg:text-3xl md:text-2xl text-xl mb-5 text-grayContrast">
-                {{ item.nombre }}
-              </p>
-            </a>
-          </div>
-        </div>
+          <img :src="item.img" alt="" />
+          <p class="lg:text-3xl md:text-2xl text-xl mb-5 text-grayContrast">
+            {{ item.nombre }}
+          </p>
+        </a>
       </div>
     </div>
   </section>
@@ -73,8 +71,8 @@
 export default {
   data() {
     return {
-      categoria: "",
-      idMarca: null,
+      categoria: "Circuit Breakers",
+      idMarca: 0,
       idCategoria: 0,
       db: [
         {
@@ -114,6 +112,31 @@ export default {
           id: 3,
           idCategoria: 0,
           ruta: "images/GeneralE.png",
+        },
+        {
+          id: 4,
+          idCategoria: 0,
+          ruta: "images/FederalPacific.png",
+        },
+        {
+          id: 5,
+          idCategoria: 0,
+          ruta: "images/WestingHouse.png",
+        },
+        {
+          id: 6,
+          idCategoria: 0,
+          ruta: "images/ABB.png",
+        },
+        {
+          id: 7,
+          idCategoria: 0,
+          ruta: "images/Zinsco.png",
+        },
+        {
+          id: 8,
+          idCategoria: 0,
+          ruta: "images/AllenBradley.png",
         },
       ],
       productos: [
