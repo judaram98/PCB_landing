@@ -9,8 +9,10 @@
     <p
       class="text-center lg:text-3xl md:text-2xl text-xl mt-5 text-darkGrayContrast lg:px-48 md:px-32 sm:px-20 px-12"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu libero
-      ipsum. Fusce fringilla lectus metus, ac tempor nunc ultricies eu.
+      You will find the different products that we have for you. We sell the
+      most recognized brands in the market such as: Square D, Eaton, Siemens,
+      General Electric, Federal Pacific, Westinghouse, ABB, Zinsco, Allen
+      Bradley.
     </p>
     <h1
       class="text-darkGrayContrast text-center lg:text-4xl md:text-3xl text-2xl tracking-wide border-around-gray mt-10"
