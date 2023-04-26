@@ -28,14 +28,10 @@
     <div
       class="w-full grid md:grid-cols-4 grid-cols-2 lg:mt-10 mt-7 lg:gap-5 md:gap-3 gap-2"
     >
-      <div
-        v-for="item in marcas"
-        v-bind:key="item.id"
-        class="flex justify-center items-center"
-      >
+      <template v-for="item in marcas" v-bind:key="item.id">
         <div
           v-if="item.idCategoria == idCategoria"
-          class="lg:px-10 md:px-6 px-2"
+          class="lg:px-10 md:px-6 px-2 flex justify-center items-center"
           @click="idMarca = item.id"
         >
           <img
@@ -45,7 +41,7 @@
             class="hover:scale-105 duration-300 grayscale hover:grayscale-0"
           />
         </div>
-      </div>
+      </template>
     </div>
 
     <div
@@ -137,6 +133,81 @@ export default {
           id: 8,
           idCategoria: 0,
           ruta: "images/AllenBradley.png",
+        },
+        {
+          id: 9,
+          idCategoria: 1,
+          ruta: "images/SquareD.png",
+        },
+        {
+          id: 10,
+          idCategoria: 1,
+          ruta: "images/Eaton.png",
+        },
+        {
+          id: 11,
+          idCategoria: 1,
+          ruta: "images/Siemens.png",
+        },
+        {
+          id: 12,
+          idCategoria: 1,
+          ruta: "images/GeneralE.png",
+        },
+        {
+          id: 13,
+          idCategoria: 1,
+          ruta: "images/ABB.png",
+        },
+        {
+          id: 14,
+          idCategoria: 2,
+          ruta: "images/SquareD.png",
+        },
+        {
+          id: 15,
+          idCategoria: 2,
+          ruta: "images/Eaton.png",
+        },
+        {
+          id: 16,
+          idCategoria: 2,
+          ruta: "images/Siemens.png",
+        },
+        {
+          id: 17,
+          idCategoria: 2,
+          ruta: "images/GeneralE.png",
+        },
+        {
+          id: 18,
+          idCategoria: 3,
+          ruta: "images/SquareD.png",
+        },
+        {
+          id: 19,
+          idCategoria: 3,
+          ruta: "images/Eaton.png",
+        },
+        {
+          id: 20,
+          idCategoria: 3,
+          ruta: "images/Siemens.png",
+        },
+        {
+          id: 21,
+          idCategoria: 3,
+          ruta: "images/GeneralE.png",
+        },
+        {
+          id: 22,
+          idCategoria: 3,
+          ruta: "images/FederalPacific.png",
+        },
+        {
+          id: 23,
+          idCategoria: 3,
+          ruta: "images/WestingHouse.png",
         },
       ],
       productos: [
