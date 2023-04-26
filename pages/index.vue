@@ -3,7 +3,7 @@
     <div>
       <div
         v-if="modal"
-        class="fixed top-0 left-0 w-full h-screen z-20 bg-black opacity-50"
+        class="fixed top-0 left-0 w-full h-screen z-20 backdrop-blur-sm"
         @click="modal = false"
       ></div>
       <div
