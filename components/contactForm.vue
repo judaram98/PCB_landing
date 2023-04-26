@@ -6,13 +6,7 @@
     >
       CONTACT US
     </h1>
-    <p
-      class="text-center lg:text-3xl md:text-2xl text-xl mt-5 text-darkGrayContrast lg:px-48 md:px-32 sm:px-20 px-12"
-    >
-      To provide an excellent service to our clients, we have three locations in
-      different parts of the country, such as: Los Angeles, CA Houston TX and
-      Fort Lauderdale, FL.
-    </p>
+
     <div class="lg:flex justify-center mt-5 gap-10">
       <div class="flex lg:justify-start justify-center">
         <img src="/images/Phone.svg" alt="" class="mr-3" />
@@ -48,6 +42,13 @@
         </div>
       </div>
     </div>
+    <p
+      class="text-center lg:text-3xl md:text-2xl text-xl mt-5 text-darkGrayContrast lg:px-48 md:px-32 sm:px-20 px-12"
+    >
+      To provide an excellent service to our clients, we have three locations in
+      different parts of the country, such as: Los Angeles, CA Houston TX and
+      Fort Lauderdale, FL.
+    </p>
     <form class="flex flex-col items-center mt-10">
       <div
         class="flex md:flex-row flex-col items-center lg:px-48 md:px-32 sm:px-20 px-12"
