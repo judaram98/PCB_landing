@@ -59,7 +59,7 @@
         <h1
           class="lg:text-5xl md:text-4xl text-3xl stroke-black tracking-wide border-around lg:mt-5 md:mt-4 mt-3"
         >
-          930
+          980
         </h1>
         <p
           class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"

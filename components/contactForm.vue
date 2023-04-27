@@ -26,7 +26,7 @@
           <h3
             class="lg:text-2xl md:text-xl text-lg -mt-2 tracking-wide border-around-sm"
           >
-            1419 NW 65 AVE PLANTATION FLORIDA 33313
+            6601 NW 14 ST SUITE # 3 PLANTATION, FLORIDA 33313
           </h3>
         </div>
       </div>

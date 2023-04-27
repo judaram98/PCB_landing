@@ -141,7 +141,7 @@
             Office:
           </p>
           <p class="lg:text-2xl md:text-xl text-lg text-darkGray w-2/3">
-            1419 NW 65 AVE PLANTATION FLORIDA 33313
+            6601 NW 14 ST SUITE # 3 PLANTATION, FLORIDA 33313
           </p>
         </div>
         <div class="flex">

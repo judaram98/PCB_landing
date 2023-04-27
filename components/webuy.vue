@@ -23,54 +23,54 @@
     <div class="flex mt-5 justify-center">
       <ul class="w-1/5">
         <li
-          class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Circuit Breakers
         </li>
         <li
-          class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Arc Faults
         </li>
         <li
-          class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Switch Gears
         </li>
         <li
-          class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Bus Plugs
         </li>
         <li
-          class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Motor Control / MCC
         </li>
       </ul>
       <ul id="sell" class="w-1/5">
         <li
-          class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Data Centers
         </li>
         <li
-          class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Trip Units
         </li>
         <li
-          class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Panel Boards
         </li>
         <li
-          class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Busway Switches
         </li>
         <li
-          class="md:text-left text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Transformers
         </li>
