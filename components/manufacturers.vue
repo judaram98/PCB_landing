@@ -61,6 +61,12 @@
         </a>
       </div>
     </div>
+    <p
+      v-if="idCategoria != 0"
+      class="text-darkGrayContrast text-center lg:text-4xl md:text-3xl text-2xl"
+    >
+      Please call us for availability
+    </p>
   </section>
 </template>
 <script>
