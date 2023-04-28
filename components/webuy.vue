@@ -104,10 +104,12 @@
       >
     </div>
     <div
-      class="lg:mt-7 mt-5 flex lg:px-48 md:px-32 sm:px-20 px-12 justify-between"
+      class="lg:mt-7 mt-5 grid sm:grid-cols-4 grid-cols-2 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 gap-10"
     >
-      <img src="/images/Breakers.png" alt="Hospital" class="w-2/5" />
-      <img src="/images/Breakers_2.png" alt="Hospital" class="w-2/5" />
+      <img src="/images/GrupoEaton.png" alt="Eaton" />
+      <img src="/images/GrupoGeneralE.png" alt="GeneralE" />
+      <img src="/images/GrupoSiemens.png" alt="Siemens" />
+      <img src="/images/GrupoSquareD.png" alt="SquareD" />
     </div>
   </section>
 </template>
