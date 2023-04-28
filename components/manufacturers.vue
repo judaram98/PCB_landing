@@ -30,16 +30,34 @@
     >
       <template v-for="item in marcas" v-bind:key="item.id">
         <div
-          v-if="item.idCategoria == idCategoria"
+          v-if="
+            item.idCategoria == idCategoria && categoria != 'Circuit Breakers'
+          "
           class="lg:px-10 md:px-6 px-2 flex justify-center items-center"
           @click="idMarca = item.id"
         >
           <img
             :src="item.ruta"
-            alt="Square D Logo"
-            :class="item.id == idMarca ? 'grayscale-0' : ''"
-            class="hover:scale-105 duration-300 grayscale hover:grayscale-0"
+            :alt="item.ruta"
+            class="hover:scale-105 duration-300"
           />
+        </div>
+        <div
+          v-if="
+            item.idCategoria == idCategoria && categoria == 'Circuit Breakers'
+          "
+          class="lg:px-10 md:px-6 px-2 flex flex-col"
+        >
+          <img :src="item.grupo" :alt="item.grupo" class="mb-5 rounded-lg" />
+          <div class="h-36 flex items-center">
+            <div>
+              <img
+                :src="item.ruta"
+                :alt="item.ruta"
+                class="hover:scale-105 duration-300"
+              />
+            </div>
+          </div>
         </div>
       </template>
     </div>
@@ -48,17 +66,21 @@
       class="w-full grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:mt-14 mt-10 lg:gap-5 md:gap-4 gap-3"
     >
       <div v-for="item in productos" v-bind:key="item.id">
-        <a
-          v-if="idMarca == item.idMarca && idCategoria == item.idCategoria"
-          target="_blank"
-          :href="item.pdf"
-          class="hover:scale-105 duration-300 border-2 border-gray rounded-lg flex flex-col justify-center items-center cursor-pointer"
+        <div
+          v-if="idCategoria == item.idCategoria"
+          class="hover:scale-105 duration-300 border-2 border-gray rounded-lg flex flex-col justify-center items-center"
         >
           <img :src="item.img" alt="" />
           <p class="lg:text-3xl md:text-2xl text-xl mb-5 text-grayContrast">
             {{ item.nombre }}
           </p>
-        </a>
+          <a
+            target="_blank"
+            :href="item.pdf"
+            class="lg:text-2xl md:text-xl text-lg bg-primary hover:bg-primaryContrast rounded-xl py-3 px-10 text-black w-fit mb-5"
+            >VIEW CATALOG</a
+          >
+        </div>
       </div>
     </div>
     <p
@@ -74,7 +96,6 @@ export default {
   data() {
     return {
       categoria: "Circuit Breakers",
-      idMarca: 0,
       idCategoria: 0,
       db: [
         {
@@ -98,47 +119,26 @@ export default {
         {
           id: 0,
           idCategoria: 0,
+          grupo: "images/GrupoSquareD.png",
           ruta: "images/SquareD.png",
         },
         {
           id: 1,
           idCategoria: 0,
+          grupo: "images/GrupoEaton.png",
           ruta: "images/Eaton.png",
         },
         {
           id: 2,
           idCategoria: 0,
+          grupo: "images/GrupoSiemens.png",
           ruta: "images/Siemens.png",
         },
         {
           id: 3,
           idCategoria: 0,
+          grupo: "images/GrupoGeneralE.png",
           ruta: "images/GeneralE.png",
-        },
-        {
-          id: 4,
-          idCategoria: 0,
-          ruta: "images/FederalPacific.png",
-        },
-        {
-          id: 5,
-          idCategoria: 0,
-          ruta: "images/WestingHouse.png",
-        },
-        {
-          id: 6,
-          idCategoria: 0,
-          ruta: "images/ABB.png",
-        },
-        {
-          id: 7,
-          idCategoria: 0,
-          ruta: "images/Zinsco.png",
-        },
-        {
-          id: 8,
-          idCategoria: 0,
-          ruta: "images/AllenBradley.png",
         },
         {
           id: 9,
@@ -219,43 +219,115 @@ export default {
       productos: [
         {
           id: 0,
-          idMarca: 0,
           idCategoria: 0,
-          nombre: "JJA36250",
+          nombre: "B Frame",
           pdf: "documents/Ejemplo.pdf",
-          img: "images/JJA36250.png",
+          img: "images/BFrame.png",
         },
         {
           id: 1,
-          idMarca: 0,
           idCategoria: 0,
-          nombre: "HJA36150",
+          nombre: "EDB",
           pdf: "documents/Ejemplo.pdf",
-          img: "images/HJA36150.png",
+          img: "images/EDB.png",
         },
         {
           id: 2,
-          idMarca: 0,
           idCategoria: 0,
-          nombre: "PJA36080",
+          nombre: "F Frame",
           pdf: "documents/Ejemplo.pdf",
-          img: "images/PJA36080.png",
+          img: "images/FFrame.png",
         },
         {
           id: 3,
-          idMarca: 0,
           idCategoria: 0,
-          nombre: "EDB34020",
+          nombre: "H Frame",
           pdf: "documents/Ejemplo.pdf",
-          img: "images/EDB34020.png",
+          img: "images/HFrame.png",
         },
         {
           id: 4,
-          idMarca: 0,
           idCategoria: 0,
-          nombre: "LAL36400",
+          nombre: "J Frame",
           pdf: "documents/Ejemplo.pdf",
-          img: "images/LAL36400.png",
+          img: "images/JFrame.png",
+        },
+        {
+          id: 5,
+          idCategoria: 0,
+          nombre: "K Frame",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/KFrame.png",
+        },
+        {
+          id: 6,
+          idCategoria: 0,
+          nombre: "LC",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/LC.png",
+        },
+        {
+          id: 7,
+          idCategoria: 0,
+          nombre: "L Frame",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/LFrame.png",
+        },
+        {
+          id: 8,
+          idCategoria: 0,
+          nombre: "M Frame",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/MFrame.png",
+        },
+        {
+          id: 9,
+          idCategoria: 0,
+          nombre: "M Frame Old Style",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/MFrameOld.png",
+        },
+        {
+          id: 10,
+          idCategoria: 0,
+          nombre: "Motor Circuit Protectors",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/MotorCircuitProtectors.png",
+        },
+        {
+          id: 11,
+          idCategoria: 0,
+          nombre: "P Frame",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/PFrame.png",
+        },
+        {
+          id: 12,
+          idCategoria: 0,
+          nombre: "Powerpack L Frame",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/PowerLFrame.png",
+        },
+        {
+          id: 13,
+          idCategoria: 0,
+          nombre: "Q Frame",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/QFrame.png",
+        },
+        {
+          id: 14,
+          idCategoria: 0,
+          nombre: "QO Hom",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/QOHom.png",
+        },
+        {
+          id: 15,
+          idCategoria: 0,
+          nombre: "R Frame",
+          pdf: "documents/Ejemplo.pdf",
+          img: "images/RFrame.png",
         },
       ],
     };
