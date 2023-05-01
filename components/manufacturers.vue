@@ -34,7 +34,6 @@
             item.idCategoria == idCategoria && categoria != 'Circuit Breakers'
           "
           class="lg:px-10 md:px-6 px-2 flex justify-center items-center"
-          @click="idMarca = item.id"
         >
           <img
             :src="item.ruta"
@@ -46,29 +45,29 @@
           v-if="
             item.idCategoria == idCategoria && categoria == 'Circuit Breakers'
           "
-          class="lg:px-10 md:px-6 px-2 flex flex-col"
+          class="lg:px-10 md:px-6 px-2 flex flex-col hover:scale-105 duration-300"
+          :class="
+            item.id == idMarca ? 'border-2 rounded-lg border-primary' : ''
+          "
+          @click="idMarca = item.id"
         >
-          <img :src="item.grupo" :alt="item.grupo" class="mb-5 rounded-lg" />
+          <img :src="item.grupo" :alt="item.grupo" class="my-5 rounded-lg" />
           <div class="h-36 flex items-center">
             <div>
-              <img
-                :src="item.ruta"
-                :alt="item.ruta"
-                class="hover:scale-105 duration-300"
-              />
+              <img :src="item.ruta" :alt="item.ruta" />
             </div>
           </div>
         </div>
       </template>
     </div>
-
+    <hr class="mt-14 text-gray" />
     <div
       class="w-full grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:mt-14 mt-10 lg:gap-5 md:gap-4 gap-3"
     >
-      <div v-for="item in productos" v-bind:key="item.id">
+      <template v-for="item in productos" v-bind:key="item.id">
         <div
-          v-if="idCategoria == item.idCategoria"
-          class="hover:scale-105 duration-300 border-2 border-gray rounded-lg flex flex-col justify-center items-center"
+          v-if="idCategoria == item.idCategoria && item.idMarca == idMarca"
+          class="hover:scale-105 duration-300 border-2 p-5 border-gray rounded-lg flex flex-col justify-center items-center"
         >
           <img :src="item.img" alt="" />
           <p class="lg:text-3xl md:text-2xl text-xl mb-5 text-grayContrast">
@@ -77,11 +76,11 @@
           <a
             target="_blank"
             :href="item.pdf"
-            class="lg:text-2xl md:text-xl text-lg bg-primary hover:bg-primaryContrast rounded-xl py-3 px-10 text-black w-fit mb-5"
+            class="lg:text-2xl md:text-xl text-lg bg-primary hover:bg-primaryContrast rounded-xl py-3 px-10 text-black w-fit"
             >VIEW CATALOG</a
           >
         </div>
-      </div>
+      </template>
     </div>
     <p
       v-if="idCategoria != 0"
@@ -97,6 +96,7 @@ export default {
     return {
       categoria: "Circuit Breakers",
       idCategoria: 0,
+      idMarca: 0,
       db: [
         {
           id: 0,
@@ -220,6 +220,7 @@ export default {
         {
           id: 0,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "B Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/BFrame.png",
@@ -227,6 +228,7 @@ export default {
         {
           id: 1,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "EDB",
           pdf: "documents/Ejemplo.pdf",
           img: "images/EDB.png",
@@ -234,6 +236,7 @@ export default {
         {
           id: 2,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "F Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/FFrame.png",
@@ -241,6 +244,7 @@ export default {
         {
           id: 3,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "H Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/HFrame.png",
@@ -248,6 +252,7 @@ export default {
         {
           id: 4,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "J Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/JFrame.png",
@@ -255,6 +260,7 @@ export default {
         {
           id: 5,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "K Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/KFrame.png",
@@ -262,6 +268,7 @@ export default {
         {
           id: 6,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "LC",
           pdf: "documents/Ejemplo.pdf",
           img: "images/LC.png",
@@ -269,6 +276,7 @@ export default {
         {
           id: 7,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "L Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/LFrame.png",
@@ -276,6 +284,7 @@ export default {
         {
           id: 8,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "M Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/MFrame.png",
@@ -283,6 +292,7 @@ export default {
         {
           id: 9,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "M Frame Old Style",
           pdf: "documents/Ejemplo.pdf",
           img: "images/MFrameOld.png",
@@ -290,6 +300,7 @@ export default {
         {
           id: 10,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "Motor Circuit Protectors",
           pdf: "documents/Ejemplo.pdf",
           img: "images/MotorCircuitProtectors.png",
@@ -297,6 +308,7 @@ export default {
         {
           id: 11,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "P Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/PFrame.png",
@@ -304,6 +316,7 @@ export default {
         {
           id: 12,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "Powerpack L Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/PowerLFrame.png",
@@ -311,6 +324,7 @@ export default {
         {
           id: 13,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "Q Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/QFrame.png",
@@ -318,6 +332,7 @@ export default {
         {
           id: 14,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "QO Hom",
           pdf: "documents/Ejemplo.pdf",
           img: "images/QOHom.png",
@@ -325,6 +340,7 @@ export default {
         {
           id: 15,
           idCategoria: 0,
+          idMarca: 0,
           nombre: "R Frame",
           pdf: "documents/Ejemplo.pdf",
           img: "images/RFrame.png",
