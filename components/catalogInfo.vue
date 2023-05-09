@@ -56,11 +56,17 @@
     <div class="flex lg:px-48 md:px-32 sm:px-20 px-12 mt-10">
       <div class="flex flex-col items-center w-2/6">
         <img src="/images/News.svg" alt="News" class="h-7 md:h-8 lg:h-10" />
-        <h1
+
+        <vue3-autocounter
+          ref="counter"
+          :startAmount="0"
+          :endAmount="980"
+          :duration="3"
+          separator=","
+          :autoinit="true"
+          @finished="alert(`Counting finished!`)"
           class="lg:text-5xl md:text-4xl text-3xl stroke-black tracking-wide border-around lg:mt-5 md:mt-4 mt-3"
-        >
-          980
-        </h1>
+        />
         <p
           class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
@@ -69,11 +75,17 @@
       </div>
       <div class="flex flex-col items-center w-2/6">
         <img src="/images/Users.svg" alt="Users" class="h-7 md:h-8 lg:h-10" />
-        <h1
+
+        <vue3-autocounter
+          ref="counter"
+          :startAmount="0"
+          :endAmount="216"
+          :duration="1.5"
+          separator=","
+          :autoinit="true"
+          @finished="alert(`Counting finished!`)"
           class="lg:text-5xl md:text-4xl text-3xl stroke-black tracking-wide border-around lg:mt-5 md:mt-4 mt-3"
-        >
-          216
-        </h1>
+        />
         <p
           class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
@@ -82,11 +94,17 @@
       </div>
       <div class="flex flex-col items-center w-2/6">
         <img src="/images/Hands.svg" alt="Hands" class="h-7 md:h-8 lg:h-10" />
-        <h1
+
+        <vue3-autocounter
+          ref="counter"
+          :startAmount="0"
+          :endAmount="5"
+          :duration="0.2"
+          separator=","
+          :autoinit="true"
+          @finished="alert(`Counting finished!`)"
           class="lg:text-5xl md:text-4xl text-3xl stroke-black tracking-wide border-around lg:mt-5 md:mt-4 mt-3"
-        >
-          5
-        </h1>
+        />
         <p
           class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
@@ -96,3 +114,16 @@
     </div>
   </section>
 </template>
+<script setup>
+import Vue3Autocounter from "vue3-autocounter";
+</script>
+<script>
+export default {
+  data() {
+    return {};
+  },
+  components: {
+    Vue3Autocounter,
+  },
+};
+</script>
