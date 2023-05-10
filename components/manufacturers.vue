@@ -70,7 +70,7 @@
           class="hover:scale-105 duration-300 border-2 p-5 border-gray rounded-lg flex flex-col justify-center items-center"
         >
           <img :src="item.img" alt="" />
-          <p class="lg:text-3xl md:text-2xl text-xl mb-5 text-grayContrast">
+          <p class="lg:text-3xl md:text-2xl text-xl mb-5 text-darkGrayContrast">
             {{ item.nombre }}
           </p>
           <a
