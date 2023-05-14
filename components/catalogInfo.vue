@@ -61,7 +61,7 @@
           ref="counter"
           :startAmount="0"
           :endAmount="980"
-          :duration="3"
+          
           separator=","
           :autoinit="true"
           @finished="alert(`Counting finished!`)"
@@ -80,7 +80,7 @@
           ref="counter"
           :startAmount="0"
           :endAmount="216"
-          :duration="1.5"
+         
           separator=","
           :autoinit="true"
           @finished="alert(`Counting finished!`)"
@@ -99,7 +99,7 @@
           ref="counter"
           :startAmount="0"
           :endAmount="5"
-          :duration="0.2"
+          
           separator=","
           :autoinit="true"
           @finished="alert(`Counting finished!`)"

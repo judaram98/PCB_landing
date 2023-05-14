@@ -3,7 +3,7 @@
   <section
     class="w-full flex bg-blackGray items-center 2xl:mt-24 xl:mt-20 lg:mt-16 md:mt-12 mt-8"
   >
-    <img src="images/YellowImage.png" alt="" class="w-1/6 md:block hidden" />
+    <img src="/images/YellowImage.png" alt="" class="w-1/6 md:block hidden" />
     <div class="w-4/6 pl-10">
       <h1
         class="lg:text-4xl md:text-3xl text-2xl text-white tracking-wide border-around-white"
