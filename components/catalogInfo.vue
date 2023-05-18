@@ -66,15 +66,11 @@
           :autoinit="true"
           @finished="alert(`Counting finished!`)"
           class="lg:text-5xl md:text-4xl text-3xl stroke-black tracking-wide border-around lg:mt-5 md:mt-4 mt-3"
-<<<<<<< HEAD
         >
-          930
-        </h1>
-=======
-        />
->>>>>>> a278f9b979d1dbfbe7b5c909cd83a0e04b3020f0
-        <p
-          class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
+      </vue3-autocounter>
+        
+
+        <p class="text-center lg:text-3xl md:text-2xl text-xl text-darkGrayContrast"
         >
           Projects
         </p>
