@@ -222,7 +222,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "B Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_b_frame.pdf",
           img: "/images/BFrame.png",
         },
         {
@@ -230,7 +230,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "EDB",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_edb_frame.pdf",
           img: "/images/EDB.png",
         },
         {
@@ -238,7 +238,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "F Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_f_frame.pdf",
           img: "/images/FFrame.png",
         },
         {
@@ -246,7 +246,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "H Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_h_frame.pdf",
           img: "/images/HFrame.png",
         },
         {
@@ -254,7 +254,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "J Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_j_frame.pdf",
           img: "/images/JFrame.png",
         },
         {
@@ -262,7 +262,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "K Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_ka_frame.pdf",
           img: "/images/KFrame.png",
         },
         {
@@ -270,7 +270,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "LC",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_lc_lcl.pdf",
           img: "/images/LC.png",
         },
         {
@@ -278,7 +278,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "L Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_l_frame.pdf",
           img: "/images/LFrame.png",
         },
         {
@@ -294,7 +294,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "M Frame Old Style",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_M_frame_old_style.pdf",
           img: "/images/MFrameOld.png",
         },
         {
@@ -302,7 +302,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "Motor Circuit Protectors",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_motor_circuit_protectors.pdf",
           img: "/images/MotorCircuitProtectors.png",
         },
         {
@@ -310,7 +310,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "P Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_p_frame.pdf",
           img: "/images/PFrame.png",
         },
         {
@@ -318,7 +318,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "Powerpack L Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_powerpac_l_frame2.pdf",
           img: "/images/PowerLFrame.png",
         },
         {
@@ -326,7 +326,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "Q Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_q.pdf",
           img: "/images/QFrame.png",
         },
         {
@@ -334,7 +334,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "QO Hom",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_qo_hom.pdf",
           img: "/images/QOHom.png",
         },
         {
@@ -342,7 +342,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "R Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "/documents/categoria_familia_r_frame.pdf",
           img: "/images/RFrame.png",
         },
       ],
