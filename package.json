@@ -1,5 +1,6 @@
 {
   "name": "nuxt-app",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.6.4",
+    "@sendgrid/mail": "^7.7.0",
     "vue3-autocounter": "^1.0.6"
   }
 }

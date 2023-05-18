@@ -16,28 +16,28 @@
     <div class="w-full flex lg:mt-5 mt-3">
       <div class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center">
         <img
-          src="images/SquareD.png"
+          src="/images/SquareD.png"
           alt="Square D Logo"
           class="hover:scale-105 duration-300"
         />
       </div>
       <div class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center">
         <img
-          src="images/Eaton.png"
+          src="/images/Eaton.png"
           alt="Abb Logo"
           class="hover:scale-105 duration-300"
         />
       </div>
       <div class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center">
         <img
-          src="images/Siemens.png"
+          src="/images/Siemens.png"
           alt="Siemens Logo"
           class="hover:scale-105 duration-300"
         />
       </div>
       <div class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center">
         <img
-          src="images/GeneralE.png"
+          src="/images/GeneralE.png"
           alt="General Electrics Logo"
           class="hover:scale-105 duration-300"
         />
@@ -46,28 +46,28 @@
     <div class="w-full flex lg:mt-5 mt-3">
       <div class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center">
         <img
-          src="images/FederalPacific.png"
+          src="/images/FederalPacific.png"
           alt="Federal Pacific Logo"
           class="hover:scale-105 duration-300"
         />
       </div>
       <div class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center">
         <img
-          src="images/WestingHouse.png"
+          src="/images/WestingHouse.png"
           alt="Westing House Logo"
           class="hover:scale-105 duration-300"
         />
       </div>
       <div class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center">
         <img
-          src="images/ABB.png"
+          src="/images/Abb.png"
           alt="Eaton Logo"
           class="hover:scale-105 duration-300"
         />
       </div>
       <div class="w-1/4 lg:px-10 md:px-6 px-2 flex justify-center items-center">
         <img
-          src="images/Zinsco.png"
+          src="/images/Zinsco.png"
           alt="Zinsco Logo"
           class="hover:scale-105 duration-300"
         />
@@ -75,7 +75,7 @@
     </div>
     <div class="w-full flex justify-center lg:mt-5 mt-3">
       <img
-        src="images/AllenBradley.png"
+        src="/images/AllenBradley.png"
         alt="Allen Bradley Logo"
         class="hover:scale-105 duration-300 lg:h-20 sm:h-14 h-10"
       />
