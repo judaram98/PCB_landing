@@ -278,7 +278,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "L Frame",
-          pdf: "/documents/categoria_familia_l_frame.pdf",
+          pdf: "/documents/categoria_familia_l_frame_old.pdf",
           img: "/images/LFrame.png",
         },
         {
@@ -286,7 +286,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "M Frame",
-          pdf: "/documents/Ejemplo.pdf",
+          pdf: "#",
           img: "/images/MFrame.png",
         },
         {
@@ -326,7 +326,7 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "Q Frame",
-          pdf: "/documents/categoria_familia_q.pdf",
+          pdf: "/documents/categoria_q_frame.pdf",
           img: "/images/QFrame.png",
         },
         {
