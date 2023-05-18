@@ -60,7 +60,7 @@
         <vue3-autocounter
           ref="counter"
           :startAmount="0"
-          :endAmount="980"
+          :endAmount="830"
           
           separator=","
           :autoinit="true"
