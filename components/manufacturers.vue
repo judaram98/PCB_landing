@@ -278,8 +278,8 @@ export default {
           idCategoria: 0,
           idMarca: 0,
           nombre: "L Frame",
-          pdf: "/documents/LA_FRAME OLD.pdf",
-          img: "/images/LFrameNuevo.jpg",
+          pdf: "/documents/LA_FRAME_OLD.pdf",
+          img: "/images/LFrame.png",
         },
         {
           id: 8,
