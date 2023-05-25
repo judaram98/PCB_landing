@@ -51,14 +51,14 @@
     </p>
     <form class="flex flex-col items-center mt-10">
       <div
-        class="flex md:flex-row flex-col items-center lg:px-48 md:px-32 sm:px-20 px-12"
+        class="flex flex-col items-center lg:px-48 md:px-32 sm:px-20 w-full px-12"
       >
         <img
           src="/images/Map.png"
           alt="Brakers"
-          class="md:pr-5 md:w-3/6 sm:w-4/6 w-5/6"
+          class="md:pr-5 sm:w-5/6 w-5/6"
         />
-        <div class="md:w-3/6 w-full md:pl-5 mt-5 md:mt-0">
+        <div class="md:w-5/6 w-full md:pl-5 mt-5 md:mt-10">
           <div class="flex flex-col">
             <label class="lg:text-2xl md:text-xl text-lg text-darkGrayContrast"
               >Name: <span aria-label="required">*</span></label

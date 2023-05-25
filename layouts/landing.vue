@@ -116,16 +116,24 @@
           IMPORTANT LINKS
         </h1>
         <div class="flex flex-col lg:px-20 md:px-10 px-3 mt-5">
-          <a href="#" class="lg:text-2xl md:text-xl text-lg text-darkGray"
+          <a
+            href="/catalog"
+            class="lg:text-2xl md:text-xl text-lg text-darkGray"
             >Circuit Breakers</a
           >
-          <a href="#" class="lg:text-2xl md:text-xl text-lg text-darkGray"
+          <a
+            href="/catalog"
+            class="lg:text-2xl md:text-xl text-lg text-darkGray"
             >Motor Control</a
           >
-          <a href="#" class="lg:text-2xl md:text-xl text-lg text-darkGray"
+          <a
+            href="/catalog"
+            class="lg:text-2xl md:text-xl text-lg text-darkGray"
             >Panels</a
           >
-          <a href="#" class="lg:text-2xl md:text-xl text-lg text-darkGray"
+          <a
+            href="/catalog"
+            class="lg:text-2xl md:text-xl text-lg text-darkGray"
             >Transformers</a
           >
         </div>
