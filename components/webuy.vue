@@ -106,10 +106,10 @@
     <div
       class="lg:mt-7 mt-5 grid sm:grid-cols-4 grid-cols-2 2xl:px-20 xl:px-16 lg:px-12 md:px-8 px-3 gap-10"
     >
-      <img src="/images/GrupoSquareD.png" alt="SquareD" />
-      <img src="/images/GrupoEaton.png" alt="Eaton" />
-      <img src="/images/GrupoSiemens.png" alt="Siemens" />
-      <img src="/images/GrupoGeneralE.png" alt="GeneralE" />
+      <img src="/images/GrupoSquareDNuev.jpg" alt="SquareD" />
+      <img src="/images/GrupoEatonNue.jpg" alt="Eaton" />
+      <img src="/images/GrupoSiemenNuevo.jpg" alt="Siemens" />
+      <img src="/images/GrupoGeneralNue.jpg" alt="GeneralE" />
     </div>
   </section>
 </template>

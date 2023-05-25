@@ -27,8 +27,8 @@ export default {
         ],
       },
       backgroundImage: {
-        "popup-left": "url('/images/LeftPop.png')",
-        "popup-right": "url('/images/RightPop.png')",
+        "popup-left": "url('/images/LeftPopNue.jpg')",
+        "popup-right": "url('/images/RightPopNuev.jpg')",
       },
       colors: {
         primary: "#FFCB2A",

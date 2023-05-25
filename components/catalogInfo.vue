@@ -21,7 +21,7 @@
     </h1>
     <div class="flex lg:mt-5 md:mt-4 mt-3 lg:gap-5 md:gap-4 gap-3">
       <div class="w-1/4">
-        <img src="/images/Stadiums.png" alt="Hospital" />
+        <img src="/images/StadiumsNue.jpg" alt="Hospital" />
         <p
           class="text-center lg:text-3xl md:text-2xl text-xl lg:mt-5 md:mt-4 text-darkGrayContrast"
         >
@@ -29,7 +29,7 @@
         </p>
       </div>
       <div class="w-1/4">
-        <img src="/images/DataCenter.png" alt="Hospital" />
+        <img src="/images/DataCenterNuevo.jpg" alt="Hospital" />
         <p
           class="text-center lg:text-3xl md:text-2xl text-xl lg:mt-5 md:mt-4 text-darkGrayContrast"
         >
@@ -37,7 +37,7 @@
         </p>
       </div>
       <div class="w-1/4">
-        <img src="/images/LargeProjects.png" alt="Hospital" />
+        <img src="/images/LargeProjectsNuevo.jpg" alt="Hospital" />
         <p
           class="text-center lg:text-3xl md:text-2xl text-xl lg:mt-5 md:mt-4 text-darkGrayContrast"
         >
@@ -45,7 +45,7 @@
         </p>
       </div>
       <div class="w-1/4">
-        <img src="/images/OilGas.png" alt="Hospital" />
+        <img src="/images/OilGasNuevo.jpg" alt="Hospital" />
         <p
           class="text-center lg:text-3xl md:text-2xl text-xl lg:mt-5 md:mt-4 text-darkGrayContrast"
         >
